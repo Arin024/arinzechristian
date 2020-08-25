@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arinze Christian</title>
+    
+</head>
+<body>
+   
+    <div class="body-container">
+        <button id="myBtn"><a href="#top" style="color: white;">Top</a></button>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)"
+            class="closebtn"
+            onclick="closeNav()">&times;</a>
+             <div class="overlay-content">
+                <ul onclick="window.myFunction(event)" id="navList" >
+            <a href="Home.html" id="home"  >Home</a>
+            <a href="Skills.html" id="mySkills" >Skills</a>
+            <a href="Project.html" id="myWork">Project</a>
+            <a href="modal.html" id="myInfo">Contact</a>
+        </ul>
+        </div>
+        </div>
+        <span style="font-size: 30px; cursor: pointer"
+        onclick="openNav()">&#9776; open</span>
+    <section class="Home" a href="Home.html"><a>
+    <div id="home" >
+    <ul onclick="window.myFunction(event)" id="navList">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Skills.html" >Skills</a></li>
+        <li><a href="Project.html">Project</a></li>
+        <li><a href="modal.html">Contact</a></li>
+    </ul>
+    <div class="social">
+        <div class="typing">
+    <h1 > ARINZE CHRISTIAN</h1>
+</div>
+    <div class="w">
+    <h2 >Front-end Web Developer</h2>
+
+<a href="https://twitter.com/home" ><img src="twitter.logo.png" alt="image" width="30px" height="30px" ></a>
+<a href="https://web.facebook.com/?_rdc=1&_rdr" ><img src="FB.logo.png" alt="image" width="30px" height="30px" ></a>
+<a href="https://studio.youtube.com/channel/UCjrB0RwXIJXzKDn0C99OceA" ><img src="youtube.logo.png" alt="image" width="30px" height="30px" ></a>
+</div>
+</div>
+    <div class="me">
+        <div class="photo">
+        <img src="arinze.img.jpg" alt="My-Photo" >
+    </div>
+        <h5> Hey welcome to my webpage,this is Arinze a chemistry undergraduate who fell in love with programing, <br> for me coding is not just a hobby, its what I'm passionate about.</h5>
+    </div>
+</div> 
+</section>
+<!------Skills------->
+<section class="Skills"  href="Skills.html">
+<h1><span>My Skills</span></h1>
+<div id="mySkills">
+    <li>HTML <progress min="0" max="100" value="60"></progress></li><br>
+    <li>CSS<progress min="0" max="100" value="50"></progress></li><br>
+    <li>JAVASCRIPT<progress min="0" max="100" value="20"></progress></li><br>
+    <div id="tools">
+<h2><span>My Tools</span></h2>
+<img src="github logo.png" ><br>
+<img src="vs code logo.png" >
+</div>
+</div>
+</section>
+<section class="Project"a href="Project.html"></a>
+    <!---project-->
+    <h2><span>My Project</span></h2>
+    <ul id="myWork">
+        <div class="column">
+            <img src="val-form.jpg" alt="my project" style="width: 200px;" >
+            <P>I created a validation form with html/css</P>
+        </div>
+        <div class="column">
+        <li><img src="val-form.png" alt="my project" style="width: 200px;"></li>
+        <p>A validation form with html/css and javascript</p>
+    </div>
+    <div class="column">
+        <li><img src="val-form.jpg"  alt="my project" style="width: 200px; margin-bottom: -50px;" ></li>
+    </div>
+    <div class="column">
+        <li><img src="tribune.jpg" alt="my project" style="width: 190px;"></li>
+        <p>I cloned my favourites online newspaper</p>
+    </div>
+    <div class="column">
+        <li><img src="landing-page.jpg" alt="my project" style="width: 200px; margin-top: 50px;"></li>
+        <p>A landing page with pure css and javascript</p>
+    </div>
+    </ul>
+</section>
+<section >
+    <div class="contact" a href="modal.html"></a>
+        <h2>Kindly fill the contact form</h2>
+        <button onclick="document.getElementById('id01')
+        .style.display='block'" style="width: auto;">Click Here</button>
+        
+        <div id="id01" class="modal">
+            <form class="modal-content-animate" action="action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01')
+                    .style.display='none'"
+                    class="close" title="Close Modal">&times;</span>
+                    
+                    <img src="arinze.img.jpg" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label><b>First Name</b></label>
+                    <input type="text" placeholder="Enter First Name"name="uname" required>
+
+                    <label><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name"name="uname" required>
+
+                    <label><b>Email Address</b></label>
+                    <input type="email" placeholder="Enter Email Address"name="email" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter password"name="password" required>
+
+                    <button type="submit">Login</button>
+                    <input type="checkbox" checked="checked">Remember me
+                </div>
+                <div class="container" style="background-color: #f1f1f1;">
+                <button type="button"
+                onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn">Cancel</button><span class="psw">Forgot<a href="#">password</a> </span>
+                </div>
+            </form>
+        </div>
+</div>
+</section>
+<footer class="footer">
+    <address>
+        Postal Address:P.M.B 02, Anambra State University.
+    </address>
+    <p>Phone: 09080857173, 08160754659</p>
+    <p>Copyright &#169; 2020 All rights reserved.</p>
+    <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+</footer>
+<button id="myBtn"><a href="#top" style="color: white;">Top</a></button>
+<script>
+    function openNav() {
+        document.getElementById("myNav")
+        .style.height="100%";
+    }
+    function closeNav(){
+        document.getElementById("myNav")
+        .style.height="0%";
+    }
+
+    var modal=Document.getElementById('#id01');
+    //when the user clicks anywhere outside the modal, close it
+
+    window.onclick=function(event){
+        if (event.target==modal){
+            modal.style.display="none";
+        }
+    }
+    window.myFunction=function(event) {
+        document.querySelectorAll('ul li a.active').forEach(function(item){
+            item.classList.remove('active');
+        });
+        item.classList.add('active');
+    };  
+</script>
+</body>
+</html>
